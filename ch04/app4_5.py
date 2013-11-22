@@ -13,7 +13,7 @@ def get_sum(x):
             
     return v
 
-def is_prime(x):
+def is_perfect(x):
     s = get_sum(x)
     if x == s:
         return True
@@ -23,5 +23,5 @@ def is_prime(x):
 
 if __name__ == '__main__':
     for i in range(1, 1001):
-        if is_prime(i):
+        if is_perfect(i):
             print i
